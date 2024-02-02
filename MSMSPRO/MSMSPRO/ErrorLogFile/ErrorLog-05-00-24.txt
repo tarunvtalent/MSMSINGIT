@@ -1,0 +1,18 @@
+---------------------Exception Details  on   05-01-2024 10:55:00----------------------
+------------------------------------------------------------------------------------------------------
+
+
+Log Written Date :  05-01-2024 10:55:00
+
+ Error line No : pleted) Error Message : ArgumentNullException Error type : System.ArgumentNullException Error Location : Value cannot be null. (Parameter 'entity')-------------------------------------------------------------------------------------------------------
+
+
+---------------------Exception Details  on   05-01-2024 11:01:01----------------------
+------------------------------------------------------------------------------------------------------
+
+
+Log Written Date :  05-01-2024 11:01:01
+
+ Error line No : pleted) Error Message : ArgumentNullException Error type : System.ArgumentNullException Error Location : Value cannot be null. (Parameter 'entity')-------------------------------------------------------------------------------------------------------
+
+

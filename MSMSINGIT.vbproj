@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E0A20ED3-53D2-47A3-865E-D6BF4089B26C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>MSMSINGIT</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="%24tf\0\82d647e0-e840-4baf-8e7f-435cc8734fc8.gz" />
+    <None Include="%24tf\0\c1db0950-dc65-4de3-a085-4e024310bf7b.gz" />
+    <None Include="%24tf\10\9326932a-88c7-4545-9a1c-640c6899cde1.gz" />
+    <None Include="%24tf\10\c36fe2ba-4208-4cd3-bfc1-6b3e8498071d.gz" />
+    <None Include="%24tf\11\356e01ab-4767-47fc-a2b2-82ca37624fb5.gz" />
+    <None Include="%24tf\13\4b3877ed-15b6-45e0-959c-98b94805bc19.gz" />
+    <None Include="%24tf\13\8647249d-38d6-4c16-bcfa-f500d5c3f004.gz" />
+    <None Include="%24tf\14\90840fbe-c6ee-4079-88c9-7e11c879fae5.gz" />
+    <None Include="%24tf\15\37b8ab0f-c647-4c83-8761-fc2501dd1abc.gz" />
+    <None Include="%24tf\1\197170d1-d2be-4951-b406-4c84783cfb9a.gz" />
+    <None Include="%24tf\1\86a472d1-e9f2-4312-8ec7-ae9563e92435.gz" />
+    <None Include="%24tf\2\07d63572-daca-4965-bd31-e857486a2322.gz" />
+    <None Include="%24tf\2\c885cf22-8e71-443b-b4cc-0ca107386769.gz" />
+    <None Include="%24tf\3\b073b7a3-f2e4-4d9a-a73d-912552dd4e81.gz" />
+    <None Include="%24tf\4\3c8b5444-2474-43ae-87ea-1c6ea42eaede.gz" />
+    <None Include="%24tf\5\035db4b5-a241-4a09-b5d9-b846ac6cd23b.gz" />
+    <None Include="%24tf\7\13c954f7-b288-4a37-8bd7-296c269bc92e.gz" />
+    <None Include="%24tf\7\8ccc25a7-c294-40c9-88b4-a057daedba1f.gz" />
+    <None Include="%24tf\7\bd836b67-84cc-46a0-ace9-a5c27fb4eea7.gz" />
+    <None Include="%24tf\8\dedd5248-de9e-41e0-9d2c-2e97f6dca691.gz" />
+    <None Include="%24tf\9\d649faf9-43c2-4491-a767-ac39a055e6b9.gz" />
+    <None Include="%24tf\localversion.tf1" />
+    <None Include="%24tf\localversion.tfb" />
+    <None Include="%24tf\pendingchanges.tf1" />
+    <None Include="%24tf\pendingchanges.tfb" />
+    <None Include="%24tf\properties.tf1" />
+    <None Include=".vs\MSMSPRO\FileContentIndex\609a005e-f1df-4eb6-9d39-0dcd1c75c125.vsidx" />
+    <None Include=".vs\MSMSPRO\v17\.wsuo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="app.config" />
+    <None Include="MSMSPRO\MSMSPRO\appsettings.Development.json" />
+    <None Include="MSMSPRO\MSMSPRO\appsettings.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\appsettings.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.deps.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.runtimeconfig.dev.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.runtimeconfig.json" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\alpine-arm64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\alpine-arm\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-musl-arm64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-musl-arm\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-s390x\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\osx-arm64\native\libe_sqlite3.dylib" />
+    <None Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib" />
+    <None Include="MSMSPRO\MSMSPRO\MSMSPRO.csproj" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.AssemblyInfoInputs.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.assets.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.csproj.AssemblyReference.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.csproj.BuildWithSkipAnalyzers" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.csproj.CopyComplete" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.csproj.CoreCompileInputs.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.genruntimeconfig.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.RazorTargetAssemblyInfo.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\staticwebassets\MSMSPRO.StaticWebAssets.Manifest.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\staticwebassets\MSMSPRO.StaticWebAssets.Pack.cache" />
+    <None Include="MSMSPRO\MSMSPRO\obj\MSMSPRO.csproj.nuget.dgspec.json" />
+    <None Include="MSMSPRO\MSMSPRO\obj\MSMSPRO.csproj.nuget.g.props" />
+    <None Include="MSMSPRO\MSMSPRO\obj\MSMSPRO.csproj.nuget.g.targets" />
+    <None Include="MSMSPRO\MSMSPRO\obj\project.assets.json" />
+    <None Include="MSMSPRO\MSMSPRO\obj\project.nuget.cache" />
+    <None Include="MSMSPRO\MSMSPRO\Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MSMSPRO\MSMSPRO.sln" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Humanizer.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.exe" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\MSMSPRO.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.e_sqlite3.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\System.Text.Json.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\Controllers\DeptWebApiController.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Controllers\EmpWebApiController.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Controllers\weatherforecastController.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\CustomAnnotations\SalValCheck.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\DataAcess\IRepositories\IDeptRepository.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\DataAcess\IRepositories\IEmpRepository.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\DataAcess\Repositories\DeptRepository.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\DataAcess\Repositories\EmpRepository.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\DBContext\MsmsDBContext.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\ErrorLogFile\ErrorLog-04-00-24.txt" />
+    <Content Include="MSMSPRO\MSMSPRO\ErrorLogFile\ErrorLog-05-00-24.txt" />
+    <Content Include="MSMSPRO\MSMSPRO\Filters\MyExceptionFilterAttribute.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Migrations\20231201083327_NewProject_created.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Migrations\20231201083327_NewProject_created.Designer.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Migrations\MsmsDBContextModelSnapshot.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Models\Department.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Models\Employee.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\MSMSPRO.csproj.user" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\apphost.exe" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.AssemblyInfo.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.csproj.FileListAbsolute.txt" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.dll" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.MvcApplicationPartsAssemblyInfo.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\obj\Debug\netcoreapp3.1\MSMSPRO.pdb" />
+    <Content Include="MSMSPRO\MSMSPRO\Program.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\Startup.cs" />
+    <Content Include="MSMSPRO\MSMSPRO\weatherforecast.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="%24tf\12\" />
+    <Folder Include="%24tf\6\" />
+    <Folder Include=".vs\MSMSINGIT\v17\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
